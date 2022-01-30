@@ -68,9 +68,7 @@ def dyno_usage(update, context):
                 "<b>⚠️ 𝐃𝐲𝐧𝐨 𝐑𝐞𝐦𝐚𝐢𝐧𝐢𝐧𝐠 ⚠️</b>\n"
                 f"🕐 <code>{hours}</code> <b>Hours </b> <code>{minutes}</code> <b>Minutes\nPercentage: {quota_percent}%</b>\n\n"
                 "<b>❌ 𝐄𝐬𝐭𝐢𝐦𝐚𝐭𝐞𝐝 𝐄𝐱𝐩𝐢𝐫𝐞𝐝 ❌</b>\n"
-                f"📅 <code>{day}</code> <b>Days</b>",
-                f"<b>👏 𝐂𝐫𝐞𝐝𝐢𝐭𝐬 : 𝐒𝐩𝐚𝐫𝐤𝐱𝐂𝐥𝐨𝐮𝐝 👏</b>\n"
-                context.bot,
+                f"📅 <code>{day}</code> <b>Days</b>"
                 update
             )
             return True
