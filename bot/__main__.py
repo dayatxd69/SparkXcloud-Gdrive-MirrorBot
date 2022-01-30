@@ -58,11 +58,7 @@ Type /{BotCommands.HelpCommand} to get a list of available commands
     reply_markup = InlineKeyboardMarkup(buttons.build_menu(2))
     if CustomFilters.authorized_user(update) or CustomFilters.authorized_chat(update):
         if update.message.chat.type == "private" :
-<<<<<<< HEAD
-            sendMessage(f"Hey I'm Alive 🙂\nSince: Joe Mama ass get fucked", context.bot, update)
-=======
             sendMessage(f"𝐇𝐞𝐲 𝐈'𝐦 𝐀𝐥𝐢𝐯𝐞 🙂\nSince: <code>{uptime}</code>", context.bot, update)
->>>>>>> upstream/master
         else :
             sendMarkup(start_string, context.bot, update, reply_markup)
     else :
